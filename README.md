@@ -138,5 +138,40 @@ cellspacing pada tag table.
 <table border="1" cellpadding="4" cellspacing="3">
 ```
 
+![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/40cacc2d-a491-4cb6-b6b0-984e54cc2af2)
+
+
+Menggabungkan Sel Data
+Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk
+menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
+```
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Fakultas</th>
+      <th>Program Studi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td rowspan="3">Teknik</td>
+      <td>Teknik Informatika</td>
+  </tr>
+  <tr>
+      <td>2.</td>
+      <td>Teknik Industri</td>
+  </tr>
+  <tr>
+      <td>3.</td>
+      <td>Teknik Lingkungan</td>
+  </tr>
+  </tbody>
+</table>
+```
+
+Membuat Form
+Buat file baru dengan nama lab3_form.html seperti berikut.
 
 
