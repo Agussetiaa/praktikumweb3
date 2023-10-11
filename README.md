@@ -212,8 +212,27 @@ form action="proses.php" method="post">
 </form>
 ```
 
+Menabahkan Style pada Form
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+```
+ <style>
+        form p > label {
+            display: inline-block;
+            width: 100px;
+        }
+        form input[type="text"], form textarea {
+            border: 1px solid #197a43;
+        }
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
 output
-
+```
 
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/a94b8261-1832-4889-a137-b0948203ff7f)
 
