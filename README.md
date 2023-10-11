@@ -238,7 +238,8 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 output
 ```
 
-![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/b14e2059-1287-4539-8e1a-0a3a0ad35137)
+![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/2e35913c-6a26-493a-ab9e-17014a77da0b)
+
 
 
 
