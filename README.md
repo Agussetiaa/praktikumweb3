@@ -173,5 +173,49 @@ menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (sec
 
 Membuat Form
 Buat file baru dengan nama lab3_form.html seperti berikut.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>Membuat From</header>
+</body>
+</html>
+```
+
+Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut.
+```
+form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Pelanggan</legend>
+    <p>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+    </p>
+    <p>
+        <label for="alamat">Alamat</label>
+        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+    </p>
+    <p>
+        <label>Jenis Kelamin</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+        for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+        for="jk_p">Perempuan</label>
+    </p>
+        <p><input type="submit" value="Login"></p>
+        </fieldset>
+</form>
+```
+
+output
+
+
+![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/a94b8261-1832-4889-a137-b0948203ff7f)
+
 
 
