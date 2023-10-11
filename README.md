@@ -212,6 +212,10 @@ form action="proses.php" method="post">
 </form>
 ```
 
+output
+
+![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/a94b8261-1832-4889-a137-b0948203ff7f)
+
 Menabahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 ```
@@ -234,7 +238,7 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 output
 ```
 
-![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/a94b8261-1832-4889-a137-b0948203ff7f)
+![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/b14e2059-1287-4539-8e1a-0a3a0ad35137)
 
 
 
