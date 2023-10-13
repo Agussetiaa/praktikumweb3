@@ -228,6 +228,8 @@ form action="proses.php" method="post">
 
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/2e35913c-6a26-493a-ab9e-17014a77da0b)
 
+### Pertanyaan dan Tugas
+- 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
-
+<img width="960" alt="image" src="https://github.com/Agussetiaa/praktikumweb3/assets/115542822/0ce0fd85-50fc-4941-bb5a-481fed254344">
 
