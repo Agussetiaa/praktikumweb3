@@ -50,9 +50,6 @@ section unordered-list, seperti berikut.
 </section>
 ```
 
-hasil output 
-
-
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/0bcfcf68-99bc-45ce-a77a-990745aff56d)
 
 
@@ -73,8 +70,6 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
         </dl>
     </section>
 ```
-
-hasil output
 
 
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/4026bdf7-b6b0-468e-9ca7-149504251ecb)
@@ -188,6 +183,7 @@ Buat file baru dengan nama lab3_form.html seperti berikut.
 ```
 
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut.
+
 ```
 form action="proses.php" method="post">
     <fieldset>
@@ -212,8 +208,6 @@ form action="proses.php" method="post">
 </form>
 ```
 
-output
-
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/a94b8261-1832-4889-a137-b0948203ff7f)
 
 Menabahkan Style pada Form
@@ -235,7 +229,6 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
             padding: 5px 15px;
         }
     </style>
-output
 ```
 
 ![image](https://github.com/Agussetiaa/praktikumweb3/assets/115542822/2e35913c-6a26-493a-ab9e-17014a77da0b)
