@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<style>
+    form p > label {
+        display: inline-block;
+        width: 100px;
+    }
+    fieldset {
+        border-radius: 10px;
+        background-color: bisque;
+    }
+    form input[type="submit"] {
+        border: 1px solid #197a43;
+        background-color: darkblue;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+    form {color: black;}
+</style>
+<body>
+    <header>From Pendaftaran</header>
+<form action="proses.php" method="post" class="From">
+    <fieldset>
+        <legend style="text-align: center">Daftar Anggota Satpam</legend>
+    <p>
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" id="nama" required placeholder="Masukan Nama">
+    </p>
+    <p>
+        <label for="alamat">Alamat :</label>
+        <input type="text" name="alamat" id="alamat" required placeholder="Masukan Alamat">
+    </p>
+    <p>
+        <label for="nomor tlp">Nomor Tlp :</label>
+        <input type="password" name="nomor tlp" id="nomor tlp" required placeholder="Masukan No Tlp">
+    </p>
+    <p>
+        <label for="nomor KTA">Nomor KTA :</label>
+        <input type="text" name="nomor KTA" id="nomor KTA" required placeholder="Masukan No KTA">
+    </p>
+    <p>
+        <label for="Pengalaman">Pengalaman :</label>
+        <select id="dropdown" name="dropdown" multiple>
+            <option value="1 Tahun"> 1 Tahun</option>
+            <option value="2 Tahun"> 2 Tahun</option>
+            <option value="3 Tahun"> 3 Tahun</option>
+            <option value="4 Tahun"> 4 Tahun</option>
+            <option value="5 Tahun"> 5 Tahun</option>
+            <option value="6 Tahun"> 6 Tahun</option>
+            <option value="7 Tahun"> 7 Tahun</option>
+            <option value="8 Tahun"> 8 Tahun</option>
+            <option value="9 Tahun"> 9 Tahun</option>
+            <option value="10 Tahun"> 10 Tahun</option>
+        </select>
+    </p>
+    <p>
+        <label for="Penempatan">Penempatan :</label>
+        <select id="listboox" name="listboox">
+            <option value="PT">PT</option>
+            <option value="Perumahan"> Perumahan</option>
+            <option value="Gudang"> Gudang</option>
+            <option value="Kawasan"> Kawasan</option>
+        </select>
+    </p>
+    <p>
+        <label>Jenis Kelamin</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+        for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+        for="jk_p">Perempuan</label>
+    </p>
+        <p><input type="submit" value="Daftar"></p>
+    </fieldset>
+</form>
+</body>
+</html>
